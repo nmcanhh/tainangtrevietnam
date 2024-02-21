@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuyển hướng</title>
+    <style>
+      /* CSS để tạo nút màu đỏ với border radius và căn giữa */
+      .button-container {
+        text-align: center; /* Căn giữa nội dung */
+      }
+
+      .button {
+        background-color: #ff0000; /* Màu đỏ */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px; /* Độ cong của viền */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Container để căn giữa nút -->
+    <div class="button-container">
+      <!-- Nút "Truy cập" -->
+      <button class="button" onclick="redirect()">Truy cập</button>
+    </div>
+
+    <script>
+      function redirect() {
+        // Chuyển hướng người dùng đến trang https://tainangtrevietnam.vn/danh-sach-binh-chon
+        window.location.href =
+          "https://tainangtrevietnam.vn/danh-sach-binh-chon";
+      }
+    </script>
+  </body>
+</html>
